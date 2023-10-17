@@ -1,0 +1,15 @@
+body {
+	background-image: url("../img/a3.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	  /*背景图*/
+}
+strong,b{
+	font-size: 20px;
+}/*字号大小*/
+
+h1{
+	text-shadow: 0px 0px 8px #d905f5bb;
+}/*阴影效果*/
+
+
