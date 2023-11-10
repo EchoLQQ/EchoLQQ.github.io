@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/q11.8.js"></script>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        a {
+            text-decoration: none;
+            color: #999;
+            font-size: 12px;
+        }
+        body{
+            background-color: #f4f4f4;
+        }
+        ul,ol {
+            list-style: none;
+        }
+        .tt {
+            width: 100%;
+            min-width: 1190px;
+            background-color: #e3e4e5;
+        }
+        .tt .tt2 {
+            width: 1190px;
+            height: 30px;
+            margin: 0px auto;
+        }
+        .tt .tt2 .nn01 {
+            width: 56px;
+            height: 30px;
+            line-height: 30px;
+            position: relative;
+            float: left;
+        }
+        .nn01 .nn02 .bj {
+            color: #999;
+            text-decoration: none;
+            text-align: right;
+            font-size: 14px;
+            display: block;
+        }
+        .nn01 .nn02 {
+            height: 29px;
+            border: 1px solid #e3e4e5;
+            border-bottom: none;
+        }
+        .nn02:hover {
+            border: 1px solid #999;
+            border-bottom: none;
+            background-color: #fff;
+        }
+        .nn02 .bj:hover {
+            color: #ec4141;
+        }
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+            position: absolute;
+            top: 8px;
+            left: 6px;
+        }
+        .wz {
+            padding-right: 5px;
+        }
+
+        .pk01 {
+            width: 321px;
+            height: 333px;
+            position: absolute;
+            top: 30px;
+            left: 0px;
+            background-color: #fff;
+            display: none;
+            z-index: 10;
+            border: 1px solid #999;
+        }
+        .uuu{
+            width: 48px;
+            position: absolute;
+            display: block;
+            top: -1px;
+            left: 0px;
+            border: 3px solid #fff;
+        }
+        .nn02:hover .pk01 {
+            display: block;
+        }
+        .tt2 .ss01 {
+            width: 73px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            float: left;
+            margin-left: 16px;
+        }
+        .tt2 .ss01 .ss02 {
+            color: #999;
+        }
+        .tt2 .ss01 .ss02:hover {
+            color: #ec4141;
+        }
+
+        .jj {
+            width: 240px;
+            height: 30px;
+            float: left;
+        }
+
+        .tt .yy {
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            font-size: 12px;
+        }
+
+        .yy .yy2 .yy01 {
+            width: 127px;
+            height: 30px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .yy .yy2 .yy01 a:nth-child(2) {
+            margin-left: 7px;
+        }
+
+        .yy .yy2 .ya {
+            color: #ec4141;
+        }
+
+        .yy .yy2 .yy01:nth-child(1) .yya:hover {
+            color: #ec4141;
+        }
+
+        .yy .yy2 .yy02:nth-child(3) .yya:hover {
+            color: #ec4141;
+
+        }
+
+        .yy .yy2 .yy02:nth-child(3) {
+            width: 62px;
+            height: 30px;
+            text-align: center;
+            padding: 0px 7.5px;
+            float: left;
+        }
+
+        .sg {
+            color: #999;
+            font-size: 12px;
+            float: left;
+        }
+
+        .yy .yy2 .yy03 {
+            padding: 0px 5.5px;
+            margin: 0px 6.5px;
+            width: 64px;
+            height: 29PX;
+            float: left;
+            color: #999;
+            border: 1px solid #e3e4e5;
+            border-bottom: none;
+            position: relative;
+        }
+
+        .yy .yy2 .yy03:hover {
+            border: 1px solid #999;
+            border-bottom: none;
+            background-color: #fff;
+        }
+
+        .sj {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+        }
+
+        .yy2 .yy03 .yya:hover {
+            color: #ec4141;
+        }
+
+        .pk02 {
+            width: 280px;
+            height: 230px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            left: -1px;
+            display: none;
+            z-index: 10;
+        }
+
+        .yy2 .yy03:hover .pk02 {
+            display: block;
+        }
+
+        .pk03 {
+            width: 155px;
+            height: 166px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            left: -1px;
+            display: none;
+            z-index: 10;
+        }
+
+        .yy2 .yy03:hover .pk03 {
+            display: block;
+        }
+
+        .yy2 .yy04 {
+            width: 67px;
+            height: 29px;
+            float: left;
+            color: #999;
+            text-align: center;
+            position: relative;
+            border: 1px solid #e3e4e5;
+            border-bottom: none;
+            margin: 0px 7px;
+            padding: 0px 4px;
+        }
+        .yy2 .yy04:hover {
+            color: #ec4141;
+            border: 1px solid #999;
+            border-bottom: none;
+            background-color: #fff;
+        }
+        .yy2 .kk{
+            border: none;
+            background-color: #e3e4e5;
+        }
+        .yy2 .kk:hover{
+            border: none;
+            background-color: #e3e4e5;
+        }
+        .pk04 {
+            width: 155px;
+            height: 166px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            left: -1px;
+            display: none;
+            z-index: 10;
+        }
+        .qqq{
+            width: 70px;
+            position: absolute;
+            display: block;
+            top: -1px;
+            left: 0px;
+            border: 3px solid #fff;
+        }
+        .yy2 .yy04:hover .pk04 {
+            display: block;
+        }
+        .cfx{
+            width: 70px;
+            position: absolute;
+            display: block;
+            top: -1px;
+            right: 0px;
+            border: 3px solid #fff;
+        }
+        .pk05 {
+            width: 1190px;
+            height: 160px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            right:-1px;
+            display: none;
+            z-index: 10;
+        }
+        .yy2 .yy04:hover .pk05 {
+            display: block;
+        }
+        .xsj{
+            position: absolute;
+            display: block;
+            top: -9px;
+            left: 50%;
+            margin-left: 50px;
+            border: 5px solid transparent;
+            border-bottom-color: #fff;
+        }
+        .pk06 {
+            width: 190px;
+            height: 508px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 30px;
+            right:-3px;
+            display: none;
+            z-index: 10;
+        }
+        .yy2 .yy04:hover .pk06 {
+            display: block;
+        }
+        .yy2 .yy05 {
+            width: 74px;
+            float: left;
+            text-align: center;
+        }
+        .yy2 .yy05:hover a {
+            color: #ec4141;
+        }
+        /* 第二块 */
+        .mm{
+            width: 100%;
+            border: 1px solid #eeeeee;
+            border-left: none;
+            border-right: none;
+            background-color: #fff;
+        }
+        .mm .mm01{
+            width: 1190px;
+            position: relative;
+            height: 140px;
+            margin: 0px auto;
+        }
+        .mm .mm01 .vv01{
+            width: 190px;
+            height: 130px;
+            float: left;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+        .mm .mm01 .vv01 img{
+            width: 190px;
+            height: 120px;
+        }
+        .mm .mm01 .vv02{
+            width: 710px;
+            float: left;
+            margin-top: 25px;
+            margin-left: 46px;
+        }
+        .mm .mm01 .vv02 .hh{
+            width: 546px;
+            height: 32px;
+            border: 2px solid #e2231a;
+            position: relative;
+            float: left;
+        }
+        .mm .mm01 .vv02 .hh .hh01{
+            width: 425px;
+            height: 26px;
+            padding: 2px 44px 2px 17px;
+            border: 1px solid transparent;
+            line-height: 26px;
+            font-size: 12px;
+        }
+        .mm .mm01 .vv02 .hh .xj{
+            width: 19px;
+            height: 15px;
+           position: absolute;
+           top: 6px;
+           right: 75px;
+        }
+        /* .vv02 .hh .xj .xj2:hover{
+            color: #e1251b;
+        } */
+        .vv02 .hh .xj .xj2{
+            width: 20px;
+            height: 20px;
+        }
+        .vv02 .hh .ssk{
+            width: 58px;
+            height: 32px;
+            line-height: 32px;
+            background-color: #e1251b;
+            font-size: 20px;
+            float: right;
+        }
+        .vv02 .hh .ssk .ssk01{
+            width: 20px;
+            height: 22px;
+            position: absolute;
+            top: 6px;
+            right: 20px;
+        }
+        .vv02 .hh .ssk .ssk01 .ssk02{
+            width: 20px;
+            height: 22px;
+        }
+        .vv02 .hh2{
+            width: 132px;
+            height: 34px;
+            float: left;
+            position: relative;
+            border: 1px solid #eeeeee;
+            text-align: center;
+            line-height: 36px;
+            font-size: 12px;
+            margin-left: 18px;
+        }
+        .vv02 .hh2 .ssk02{
+            width: 16px;
+            height: 18px;
+            position: absolute;
+            top:10px ;
+            left:10px;
+        }
+        .vv02 .hh2 .w{
+            color: #e1251b;
+            margin-left: 20PX;
+        }
+        .vv02 .hh2 .w2{
+            position: absolute;
+            top: 3px;
+            left: 20px;
+            padding: 1px 3px;
+            line-height: 12px;
+            color: #fff;
+            background-color: #e1251b;
+            border-radius: 7px;
+            min-width: 12px;
+        }
+        .mm01 .vv03{
+            width: 550px;
+            height: 20px;
+            float: left;
+            text-align: center;
+            line-height: 20px;
+            margin-top: 5px;
+            margin-left: 46px;
+        }
+        .mm01 .vv03 .za:hover{
+            float: left;
+            color: #e1251b;
+        }
+        .mm01 .vv03 .za{
+            float: left;
+            margin-right: 10px;
+        }
+        .mm01 .vv03 .za2{
+            color: #e1251b;
+        }
+        .mm01 .vv04{
+            width: 769px;
+            height: 30px;
+            margin-top: 20px;
+            float: left;
+        }
+        .mm01 .vv04 .r{
+            width: 76px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            float: left;
+        }
+        .mm01 .vv04 .ra{
+            font-size: 15px;
+            color: black;
+        }
+        .mm01 .vv04 .ra:hover{
+            color: #e1251b;
+        }
+        .mm01 .vv05{
+            width: 190px;
+            height: 120px;
+            background: url(img/12f0d483cd9433e8.png.jpg) no-repeat;
+            background-size: cover;
+            float: left;
+            position: absolute;
+            top: 14px;
+            right: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tt">
+        <div class="tt2">
+            <!-- 第一个 -->
+            <ul class="nn01">
+                <li class="nn02">
+                    <a class="bj" href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-dingweiweizhi"></use>
+                        </svg>
+                        <p class="wz">北京</p>
+                    </a>
+                    <div class="pk01">
+                        <div class="uuu"></div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="ss01">
+                <li><a class="ss02" href="#">切换至企业版</a></li>
+            </ul>
+            <div class="jj"></div>
+            <!-- 第二个 -->
+            <div class="yy">
+                <ol class="yy2">
+                    <li class="yy01"><a class="yya" href="#">你好，请登录</a><a class="ya" href="#">免费注册</a></li>
+                    <li class="sg">|</li>
+                    <li class="yy02"><a class="yya" href="">我的订单</a></li>
+                    <li class="sg">|</li>
+                    <li class="yy03">
+                        <a class="yya" href="#">我的京东</a>
+                        <svg class="sj" aria-hidden="true">
+                            <use xlink:href="#icon-xialaxiaosanjiao"></use>
+                        </svg>
+                        <div class="pk02">
+                            <div class="qqq"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy03">
+                        <a class="ya" href="">企业采购</a>
+                        <svg class="sj" aria-hidden="true">
+                            <use xlink:href="#icon-xialaxiaosanjiao"></use>
+                        </svg>
+                        <div class="pk03"><div class="qqq"></div></div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy04">商家服务
+                        <svg class="sj" aria-hidden="true">
+                            <use xlink:href="#icon-xialaxiaosanjiao"></use>
+                        </svg>
+                        <div class="pk04">
+                            <div class="qqq"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy04">网站导航<svg class="sj" aria-hidden="true">
+                            <use xlink:href="#icon-xialaxiaosanjiao"></use>
+                        </svg>
+                        <div class="pk05">
+                            <div class="cfx"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy04 kk">手机京东
+                        <div class="pk06">
+                            <div class="xsj"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy05"><a href="#">网站无障碍</a></li>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="mm">
+        <div class="mm01">
+            <div class="vv01">
+                <a href="#"><img src="img/80afe4b365931a5d.jpg" alt="京东"></a>
+            </div>
+            <ol class="vv02">
+                <li class="hh">
+                    <input class="hh01" type="text" placeholder="我也不知道写什么" >
+                    <a href="#" class="xj">
+                        <svg class="xj2" aria-hidden="true">
+                            <use xlink:href="#icon-xiangji"></use>
+                        </svg>
+                    </a>
+                    <div class="ssk">
+                        <a href="#" class="ssk01">
+                            <svg class="ssk02" aria-hidden="true">
+                                <use xlink:href="#icon-sousuo"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li class="hh2">
+                    <svg class="ssk02" aria-hidden="true">
+                        <use xlink:href="#icon-gouwuchekong"></use>
+                    </svg>
+                    <a class="w" href="#"> 我的购物车</a>
+                    <P class="w2">0</P>
+                </li>
+            </ol>
+            <ol class="vv03">
+                <li class="z"><a class="za za2" href="#">易开得净水</a></li>
+                <li class="z"><a class="za" href="#">拍拍二手</a></li>
+                <li class="z"><a class="za" href="#">iPhone15</a></li>
+                <li class="z"><a class="za" href="#">爆款手机</a></li>
+                <li class="z"><a class="za" href="#">5折抢购</a></li>
+                <li class="z"><a class="za" href="#">大牌奥莱</a></li>
+                <li class="z"><a class="za" href="#">汽车凑单</a></li>
+                <li class="z"><a class="za" href="#">企业团购</a></li>
+                <li class="z"><a class="za" href="#">移动优选</a></li>
+            </ol>
+            <ol class="vv04">
+                <li class="r"><a class="ra" href="#">京东超市</a></li>
+                <li class="r"><a class="ra" href="#">秒杀</a></li>
+                <li class="r"><a class="ra" href="#">京东生鲜</a></li>
+                <li class="r"><a class="ra" href="#">京东家电</a></li>
+                <li class="r"><a class="ra" href="#">电脑数码</a></li>
+                <li class="r"><a class="ra" href="#">PLUS会员</a></li>
+                <li class="r"><a class="ra" href="#">便宜包邮</a></li>
+                <li class="r"><a class="ra" href="#">进口好物</a></li>
+                <li class="r"><a class="ra" href="#">拍卖</a></li>
+                <li class="r"><a class="ra" href="#">京东五金城</a></li>
+            </ol>
+            <a class="vv05" href="#"></a>
+        </div>
+    </div>
+</body>
+
+</html>

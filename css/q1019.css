@@ -1,15 +1,15 @@
-.mm,.mm2,.mm3,.ww,.bb{
-    width: 1168px;
+.mm2,.mm3,.ww,.bb{
+    width: 1170px;
 }
 .mm,.ww,.bb21,.bb22,.bb23,.xx,.tt,.ss,.ee{
-    border: 1px solid #0ff;
+    border: 1px solid rgb(102, 114, 114);
 }
-.bb2,.bb22,.bb23,.bb22{
+.bb22,.bb23,.bb22{
     width: 258px;
 }
 .xx,.xx3,.tt,.tt3,.ss,.ee{
     width: 898px;
 }
-.bb2,.xx,.tt,.ss,.ee{
+.tt,.ss,.ee{
     float: left; 
 }

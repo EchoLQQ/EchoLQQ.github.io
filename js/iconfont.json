@@ -1,0 +1,93 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "36791217",
+      "name": "棒棒糖",
+      "font_class": "bangbangtang-01",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "36791231",
+      "name": "布丁",
+      "font_class": "buding-01",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "36791232",
+      "name": "蛋糕",
+      "font_class": "dangao-01",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "36791248",
+      "name": "饭团",
+      "font_class": "fantuan-01",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "36791251",
+      "name": "汉堡",
+      "font_class": "hanbao-01",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "36791262",
+      "name": "咖啡",
+      "font_class": "kafei-01",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "36791266",
+      "name": "可乐",
+      "font_class": "kele-01",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "36791268",
+      "name": "米饭",
+      "font_class": "mifan-01",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "36791272",
+      "name": "奶茶",
+      "font_class": "naicha-01",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "36791280",
+      "name": "刨冰",
+      "font_class": "paobing-01",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "36791293",
+      "name": "塔可",
+      "font_class": "take-01",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "36791299",
+      "name": "雪糕",
+      "font_class": "xuegao-01",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    }
+  ]
+}

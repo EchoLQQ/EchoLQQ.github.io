@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>练习渐变</title>
+    <style>
+        #ee {
+            width: 500px;
+            height: 200px;
+            background-color: red;
+            background-image: linear-gradient(120deg, #e66465, #9198e5, #76ee9e, #cef14e);
+        }
+
+        #tt {
+            width: 200px;
+            height: 200px;
+            font-size: 30px;
+            background-image: linear-gradient(50deg, #0ff, #e468bf);
+            -webkit-background-clip: text;
+            color: transparent;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        :target{
+            border: 20px solid #19fc05;
+            width: 300px;
+            height: 300px;
+        }
+        a{
+            font-size: 30px;
+            background-image: linear-gradient(50deg, #0ff, #e468bf);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <p><a href="#ee">第一个</a></p>
+    <p><a href="#tt">第二个</a></p>
+    <div id="ee">背景渐变</div>
+    <div id="tt" >字体渐变 <br>多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号多行显示省略号
+    </div>
+</body>
+
+</html>
