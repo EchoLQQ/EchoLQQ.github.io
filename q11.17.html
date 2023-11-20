@@ -1,0 +1,2584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconfont01.css">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #999;
+            font-size: 12px;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        .tt {
+            width: 100%;
+            min-width: 1190px;
+            background-color: #e3e4e5;
+        }
+
+        .tt .tt2 {
+            width: 1190px;
+            height: 30px;
+            margin: 0px auto;
+        }
+
+        .tt .tt2 .nn01 {
+            width: 56px;
+            height: 30px;
+            line-height: 30px;
+            position: relative;
+            float: left;
+        }
+
+        .nn01 .nn02 .bj {
+            color: #999;
+            text-decoration: none;
+            text-align: right;
+            font-size: 14px;
+            display: block;
+        }
+
+        .nn01 .nn02 {
+            height: 29px;
+            border: 1px solid #e3e4e5;
+            border-bottom: none;
+        }
+
+        .nn02:hover {
+            border: 1px solid #999;
+            border-bottom: none;
+            background-color: #fff;
+        }
+
+        .nn02 .bj:hover {
+            color: #ec4141;
+        }
+
+        .bj .iconfont {
+            position: absolute;
+            top: 2px;
+            left: 4px;
+            font-size: 8px;
+            color: #e1251b;
+        }
+
+        .wz {
+            padding-right: 5px;
+        }
+
+        .pk01 {
+            width: 321px;
+            height: 333px;
+            position: absolute;
+            top: 30px;
+            left: 0px;
+            background-color: #fff;
+            display: none;
+            z-index: 20;
+            border: 1px solid #999;
+        }
+
+        .uuu {
+            width: 48px;
+            position: absolute;
+            display: block;
+            top: -1px;
+            left: 0px;
+            border: 3px solid #fff;
+        }
+
+        .nn02:hover .pk01 {
+            display: block;
+        }
+
+        .tt2 .ss01 {
+            width: 73px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            float: left;
+            margin-left: 16px;
+        }
+
+        .tt2 .ss01 .ss02 {
+            color: #999;
+        }
+
+        .tt2 .ss01 .ss02:hover {
+            color: #ec4141;
+        }
+
+        .jj {
+            width: 240px;
+            height: 30px;
+            float: left;
+        }
+
+        .tt .yy {
+            height: 30px;
+            line-height: 30px;
+            float: left;
+            font-size: 12px;
+        }
+
+        .yy .yy2 .yy01 {
+            width: 127px;
+            height: 30px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .yy .yy2 .yy01 a:nth-child(2) {
+            margin-left: 7px;
+        }
+
+        .yy .yy2 .ya {
+            color: #ec4141;
+        }
+
+        .yy .yy2 .yy01:nth-child(1) .yya:hover {
+            color: #ec4141;
+        }
+
+        .yy .yy2 .yy02:nth-child(3) .yya:hover {
+            color: #ec4141;
+
+        }
+
+        .yy .yy2 .yy02:nth-child(3) {
+            width: 62px;
+            height: 30px;
+            text-align: center;
+            padding: 0px 7.5px;
+            float: left;
+        }
+
+        .sg {
+            color: #999;
+            font-size: 12px;
+            float: left;
+        }
+
+        .yy .yy2 .yy03 {
+            padding: 0px 5.5px;
+            margin: 0px 6.5px;
+            width: 64px;
+            height: 29PX;
+            float: left;
+            color: #999;
+            border: 1px solid #e3e4e5;
+            border-bottom: none;
+            position: relative;
+        }
+
+        .yy .yy2 .yy03:hover {
+            border: 1px solid #999;
+            border-bottom: none;
+            background-color: #fff;
+        }
+
+        .sj {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+        }
+
+        .yy2 .yy03 .yya:hover {
+            color: #ec4141;
+        }
+
+        .yy03 .iconfont {
+            position: absolute;
+            top: 2px;
+            right: 5px;
+            font-size: 8px;
+        }
+
+        .pk02 {
+            width: 280px;
+            height: 230px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            left: -1px;
+            display: none;
+            z-index: 10;
+        }
+
+        .yy2 .yy03:hover .pk02 {
+            display: block;
+        }
+
+        .pk03 {
+            width: 155px;
+            height: 166px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            left: -1px;
+            display: none;
+            z-index: 10;
+        }
+
+        .yy2 .yy03:hover .pk03 {
+            display: block;
+        }
+
+        .yy2 .yy04 {
+            width: 67px;
+            height: 29px;
+            float: left;
+            color: #999;
+            text-align: center;
+            position: relative;
+            border: 1px solid #e3e4e5;
+            border-bottom: none;
+            margin: 0px 7px;
+            padding: 0px 4px;
+        }
+
+        .yy04 .iconfont {
+            position: absolute;
+            top: 2px;
+            right: 0px;
+            font-size: 8px;
+        }
+
+        .yy2 .yy04:hover {
+            color: #ec4141;
+            border: 1px solid #999;
+            border-bottom: none;
+            background-color: #fff;
+        }
+
+        .yy2 .kk {
+            border: none;
+            background-color: #e3e4e5;
+        }
+
+        .yy2 .kk:hover {
+            border: none;
+            background-color: #e3e4e5;
+        }
+
+        .pk04 {
+            width: 155px;
+            height: 166px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            left: -1px;
+            display: none;
+            z-index: 10;
+        }
+
+        .qqq {
+            width: 70px;
+            position: absolute;
+            display: block;
+            top: -1px;
+            left: 0px;
+            border: 3px solid #fff;
+        }
+
+        .yy2 .yy04:hover .pk04 {
+            display: block;
+        }
+
+        .cfx {
+            width: 70px;
+            position: absolute;
+            display: block;
+            top: -1px;
+            right: 0px;
+            border: 3px solid #fff;
+        }
+
+        .pk05 {
+            width: 1190px;
+            height: 160px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 29px;
+            right: -1px;
+            display: none;
+            z-index: 10;
+        }
+
+        .yy2 .yy04:hover .pk05 {
+            display: block;
+        }
+
+        .xsj {
+            position: absolute;
+            display: block;
+            top: -9px;
+            left: 50%;
+            margin-left: 50px;
+            border: 5px solid transparent;
+            border-bottom-color: #fff;
+        }
+
+        .pk06 {
+            width: 190px;
+            height: 508px;
+            background-color: #fff;
+            border: 1px solid #999;
+            position: absolute;
+            top: 30px;
+            right: -3px;
+            display: none;
+            z-index: 10;
+        }
+
+        .yy2 .yy04:hover .pk06 {
+            display: block;
+        }
+
+        .yy2 .yy05 {
+            width: 74px;
+            float: left;
+            text-align: center;
+        }
+
+        .yy2 .yy05:hover a {
+            color: #ec4141;
+        }
+
+        /* 第二块 */
+        .mm {
+            width: 100%;
+            border: 1px solid #eeeeee;
+            border-left: none;
+            border-right: none;
+            background-color: #fff;
+        }
+
+        .mm .mm01 {
+            width: 1190px;
+            position: relative;
+            height: 140px;
+            margin: 0px auto;
+        }
+
+        .mm .mm01 .vv01 {
+            width: 190px;
+            height: 130px;
+            float: left;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+
+        .mm .mm01 .vv01 img {
+            width: 190px;
+            height: 120px;
+        }
+
+        .mm .mm01 .vvvvv {
+            width: 770px;
+            height: 130px;
+            float: left;
+        }
+
+        .mm .mm01 .vv02 {
+            width: 710px;
+            float: left;
+            margin-top: 25px;
+            margin-left: 46px;
+        }
+
+        .mm .mm01 .vv02 .hh {
+            width: 546px;
+            height: 32px;
+            border: 2px solid #e2231a;
+            position: relative;
+            float: left;
+        }
+
+        .mm .mm01 .vv02 .hh .hh01 {
+            width: 425px;
+            height: 26px;
+            padding: 2px 44px 2px 17px;
+            border: 1px solid transparent;
+            line-height: 26px;
+            font-size: 12px;
+        }
+
+        .mm .mm01 .vv02 .hh .xj {
+            position: absolute;
+            top: 6px;
+            right: 75px;
+        }
+
+        .vv02 .hh .xj .xj2 {
+            width: 20px;
+            height: 20px;
+        }
+
+        .xj .iconfont {
+            position: absolute;
+            top: -1px;
+            right: -7px;
+            font-size: 25px;
+        }
+
+        .xj .iconfont:hover {
+            color: #e1251b;
+        }
+
+        .vv02 .hh .ssk {
+            width: 58px;
+            height: 32px;
+            line-height: 32px;
+            background-color: #e1251b;
+            font-size: 20px;
+            float: right;
+        }
+
+        .vv02 .hh .ssk:hover {
+            background-color: rgba(102, 28, 33, 0.8);
+        }
+
+        .vv02 .hh .ssk .ssk01 {
+            width: 58px;
+            height: 32px;
+            display: block;
+        }
+
+        .ssk01 .iconfont {
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .vv02 .hh2 {
+            width: 132px;
+            height: 34px;
+            float: left;
+            position: relative;
+            border: 1px solid #eeeeee;
+            text-align: center;
+            line-height: 36px;
+            font-size: 12px;
+            margin-left: 18px;
+        }
+
+        .hh2 .iconfont {
+            position: absolute;
+            top: 1px;
+            left: 8px;
+            font-size: 20px;
+        }
+
+        .vv02 .hh2 .w {
+            color: #e1251b;
+            margin-left: 20PX;
+        }
+
+        .vv02 .hh2 .w2 {
+            position: absolute;
+            top: 3px;
+            left: 20px;
+            padding: 1px 3px;
+            line-height: 12px;
+            color: #fff;
+            background-color: #e1251b;
+            border-radius: 7px;
+            min-width: 12px;
+        }
+
+        .mm01 .vv03 {
+            width: 550px;
+            height: 20px;
+            float: left;
+            text-align: center;
+            line-height: 20px;
+            margin-top: 5px;
+            margin-left: 46px;
+        }
+
+        .mm01 .vv03 .za:hover {
+            float: left;
+            color: #e1251b;
+        }
+
+        .mm01 .vv03 .za {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .mm01 .vv03 .za2 {
+            color: #e1251b;
+        }
+
+        .mm01 .vv04 {
+            width: 769px;
+            height: 30px;
+            margin-top: 20px;
+            float: left;
+        }
+
+        .mm01 .vv04 .r {
+            width: 76px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            float: left;
+        }
+
+        .mm01 .vv04 .ra {
+            font-size: 15px;
+            color: black;
+        }
+
+        .mm01 .vv04 .ra:hover {
+            color: #e1251b;
+        }
+
+        .mm01 .vv05 {
+            width: 190px;
+            height: 120px;
+            background: url(img/12f0d483cd9433e8.png.jpg) no-repeat;
+            background-size: cover;
+            float: left;
+            margin-top: 10px;
+        }
+
+        .wtp {
+            background: url(img/wwx.jpg) no-repeat top;
+            margin-top: 10px;
+            width: 100%;
+            min-width: 1190px;
+            display: block;
+        }
+
+        .ww {
+            width: 1190px;
+            height: 470px;
+            margin: 0px auto;
+        }
+
+        .ww .wx {
+            width: 190px;
+            height: 450px;
+            background-color: #fff;
+            float: left;
+            margin-right: 10px;
+            padding: 10px 0px;
+            z-index: 10;
+            position: relative;
+        }
+
+        .ww .wx .wx01 {
+            padding-left: 18px;
+            height: 25px;
+            line-height: 25px;
+        }
+
+        .ww .wx .wx01 a {
+            font-size: 14px;
+            color: #333;
+            float: left;
+        }
+
+        .ww .wx .wx01:hover {
+            background-color: #d9d9d9;
+        }
+
+        .ww .wx .wx01 a:hover {
+            color: #e2231a;
+        }
+
+        .wx01 span {
+            font-size: 12px;
+            color: #333;
+            float: left;
+        }
+
+        .wx .wx01:hover .wxk {
+            width: 1000px;
+            height: 570px;
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: 190px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px 0px #333;
+        }
+
+        .wx .wx01:nth-child(2):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(3):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(4):hover .wxk {
+            height: 570px;
+        }
+
+        .wx .wx01:nth-child(5):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(6):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(7):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(8):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(9):hover .wxk {
+            height: 540px;
+        }
+
+        .wx .wx01:nth-child(10):hover .wxk {
+            width: 1000px;
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(11):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(12):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(13):hover .wxk {
+            height: 500px;
+        }
+
+        .wx .wx01:nth-child(14):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(15):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(16):hover .wxk {
+            height: 470px;
+        }
+
+        .wx .wx01:nth-child(17):hover .wxk {
+            height: 500px;
+        }
+
+        .wx .wx01:nth-child(18):hover .wxk {
+            height: 470px;
+        }
+
+        .ww2 {
+            width: 590px;
+            height: 470px;
+            float: left;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ww2 .ww2y {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.15);
+            margin-top: -15px;
+            font-size: 15px;
+            z-index: 8;
+            border-radius: 15px;
+            left: -12px;
+        }
+
+        .ww2y .iconfont {
+            position: absolute;
+            top: 8px;
+            left: 17px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .wzz .iconfont {
+            position: absolute;
+            top: 8px;
+            right: 17px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .ww2 .wzz {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.15);
+            margin-top: -15px;
+            font-size: 15px;
+            z-index: 8;
+            border-radius: 15px;
+            right: -12px;
+        }
+
+        .ww2 .ww2y:hover {
+            background-color: #575555;
+        }
+
+        .ww2 .wzz:hover {
+            background-color: #575555;
+        }
+
+        .ww2 .cc {
+            width: 150px;
+            height: 15px;
+            position: absolute;
+            bottom: 28px;
+            left: 40px;
+            z-index: 9;
+        }
+
+        .ww2 .cc .bda {
+            width: 10px;
+            height: 10px;
+            float: left;
+            margin: 0px 5px;
+            border-radius: 6px;
+            background-color: rgba(225, 225, 225, 0.7);
+        }
+
+        .ww2 .cc .bda:hover {
+            background-color: #fff;
+        }
+
+        .ww2 .cc .bda:visited {
+            background-color: #fff;
+        }
+
+        .aa {
+            float: left;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 3;
+        }
+
+        .wwz .aa001 {
+            position: relative;
+        }
+
+        :target {
+            z-index: 7;
+        }
+
+        .wy {
+            width: 190px;
+            height: 470px;
+            float: left;
+            margin: 0px 10px;
+            overflow: hidden;
+        }
+
+        .wy:hover {
+            display: block;
+        }
+
+        .wy .wy1 {
+            height: 150px;
+            position: relative;
+            display: block;
+        }
+
+        .wy .wy1:nth-child(2) {
+            margin: 10px 0px;
+        }
+
+        .wy .wy1:nth-child(1) {
+            background: url(img/jd.png) no-repeat;
+            background-size: contain;
+        }
+
+        .wy .wy1:nth-child(2) {
+            background: url(img/jd2.png) no-repeat;
+            background-size: contain;
+        }
+
+        .wy .wy1:nth-child(3) {
+            background: url(img/jd3.png) no-repeat;
+            background-size: contain;
+        }
+
+        .wy:hover {
+            opacity: 0.8;
+        }
+
+        .wy1 .wyy {
+            position: absolute;
+            top: 60px;
+            width: 40px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.15);
+            z-index: 8;
+            border-radius: 15px;
+            right: -10px;
+            display: none;
+        }
+
+        .wy1 .wyz {
+            position: absolute;
+            top: 60px;
+            width: 40px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.15);
+            z-index: 8;
+            border-radius: 15px;
+            left: -10px;
+            display: none;
+        }
+
+        .wyy .iconfont {
+            position: absolute;
+            top: 7px;
+            right: 18px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .wyz .iconfont {
+            position: absolute;
+            top: 7px;
+            left: 16px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .wy:hover .wyy {
+            display: block;
+        }
+
+        .wy:hover .wyz {
+            display: block;
+        }
+
+        .ww .wzh {
+            width: 190px;
+            height: 470px;
+            float: left;
+            background-color: #fff;
+        }
+
+        .wzh .wzh1 {
+            height: 200px;
+        }
+
+        .wzh .wzh1 .wzh1a {
+            width: 40px;
+            height: 40px;
+            display: block;
+            margin: 0px auto;
+            margin-top: 10px;
+        }
+
+        .wzh .wzh1 .wzh1a img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .wzh .wzh1 .wzhp {
+            width: 190px;
+            height: 20px;
+            margin: 5px 0px;
+            text-align: center;
+            font-size: 12px;
+            color: #333;
+            display: block;
+        }
+
+        .wzh .wzh1 .wzhp:hover {
+            color: #e1251b;
+        }
+
+        .wzh1 .wzhm {
+            width: 166px;
+            height: 45px;
+            background-color: #fef0c3;
+            display: block;
+            margin: 0px auto;
+            padding: 0px 10px;
+        }
+
+        .wzhm .z {
+            width: 92px;
+            height: 20px;
+            color: #6f3708;
+            font-weight: bold;
+            float: left;
+            font-size: 14px;
+        }
+
+        .wzhm .zxc {
+            width: 58px;
+            height: 29px;
+            float: right;
+            color: #6f3708;
+            font-size: 12px;
+        }
+
+        .wzhm .zxc i {
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            background: url(img/f561264688794c51.png) no-repeat;
+            background-size: cover;
+            margin-left: 2px;
+        }
+
+        .wzhm .zx {
+            width: 5pc;
+            height: 16px;
+            float: left;
+            color: #b8a431;
+            font-size: 12px;
+        }
+
+        .wzh1 .wzh2m {
+            width: 166px;
+            height: 45px;
+            background-color: #e0e8fb;
+            display: block;
+            margin: 10px auto;
+            padding: 0px 10px;
+        }
+
+        .wzh2m .z02 {
+            width: 92px;
+            height: 20px;
+            color: #345fdf;
+            font-weight: bold;
+            float: left;
+            font-size: 14px;
+        }
+
+        .wzh2m .zxc2 {
+            width: 58px;
+            height: 20px;
+            float: right;
+            color: #6280e0;
+            font-size: 12px;
+        }
+
+        .wzh2m .zxc2:hover {
+            color: #fad818;
+        }
+
+        .wzh2m .zx2 {
+            height: 16px;
+            float: left;
+            color: #4160dd;
+            font-size: 12px;
+        }
+
+        .wzh2m .zxc2 i {
+            width: 8px;
+            height: 8px;
+            display: inline-block;
+            background: url(img/340bb2ba16cdeb80.png) no-repeat;
+            background-size: cover;
+            margin-left: 2px;
+        }
+
+        .wzh .wzhu {
+            width: 190px;
+            height: 210px;
+            padding-top: 5px;
+        }
+
+        .wzhu .wzhu2 {
+            width: 63px;
+            height: 55px;
+            float: left;
+            text-align: center;
+        }
+
+        .wzhu2 .wzhua {
+            height: 55px;
+            display: block;
+            float: left;
+        }
+
+        .wzhua .tp {
+            width: 28px;
+            height: 28px;
+            background: url(img/d6f3909618c6307a.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp {
+            width: 28px;
+            height: 28px;
+            background: url(img/671f7c186c5e9b01.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp2 {
+            width: 28px;
+            height: 28px;
+            background: url(img/97917a2daa34be0f.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp2 {
+            width: 28px;
+            height: 28px;
+            background: url(img/5da079255c6dfabe.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp3 {
+            width: 28px;
+            height: 28px;
+            background: url(img/4e2bc2d96b0fbbec.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp3 {
+            width: 28px;
+            height: 28px;
+            background: url(img/0aff0a42cece09ee.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp4 {
+            width: 28px;
+            height: 28px;
+            background: url(img/d9d908ad415a5265.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp4 {
+            width: 28px;
+            height: 28px;
+            background: url(img/8f3f63ae04ff19af.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp5 {
+            width: 28px;
+            height: 28px;
+            background: url(img/016f82305167967a.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp5 {
+            width: 28px;
+            height: 28px;
+            background: url(img/1c590322ece537ba.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp6 {
+            width: 28px;
+            height: 28px;
+            background: url(img/e6976f3cb30c9a8a.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp6 {
+            width: 28px;
+            height: 28px;
+            background: url(img/b8a8418d5418f471.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp7 {
+            width: 28px;
+            height: 28px;
+            background: url(img/0004c1b85fbf7bde.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp7 {
+            width: 28px;
+            height: 28px;
+            background: url(img/f12276b17e5dcf3b.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp8 {
+            width: 28px;
+            height: 28px;
+            background: url(img/f1f6dc5c207329f9.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp8 {
+            width: 28px;
+            height: 28px;
+            background: url(img/9570fdd46ecd3a76.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp9 {
+            width: 28px;
+            height: 28px;
+            background: url(img/14a4b81a50f2a535.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp9 {
+            width: 28px;
+            height: 28px;
+            background: url(img/454c7d913a51126b.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp10 {
+            width: 28px;
+            height: 28px;
+            background: url(img/dd4d9ef7ce8fc169.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp10 {
+            width: 28px;
+            height: 28px;
+            background: url(img/90a218f053e903d2.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp11 {
+            width: 28px;
+            height: 28px;
+            background: url(img/18668c963bf9d646.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp11 {
+            width: 28px;
+            height: 28px;
+            background: url(img/b61f083872a7a1de.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua .tp12 {
+            width: 28px;
+            height: 28px;
+            background: url(img/142ac4557cc71434.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua:hover .tp12 {
+            width: 28px;
+            height: 28px;
+            background: url(img/293d14cc9f1e7d98.png) no-repeat;
+            background-size: contain;
+            margin: 0px auto;
+        }
+
+        .wzhua span {
+            width: 63px;
+            height: 27px;
+            display: block;
+            color: #333;
+        }
+
+        .wzhua span:hover {
+            color: #e1251b;
+        }
+
+        .wzh .wzh3 {
+            height: 30px;
+            width: 190px;
+            margin-top: 15px;
+        }
+
+        .wzh .wzh3 a {
+            width: 170px;
+            height: 30px;
+            margin: 0px auto;
+            display: block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .wzh .wzh3 span {
+            width: 35px;
+            height: 16px;
+            display: inline-block;
+            font-size: 12px;
+            text-align: center;
+            color: #e1251b;
+            background-color: rgba(225, 37, 27, 0.08);
+            margin-right: 2px;
+        }
+
+        .wzh .wzh3 a:hover {
+            color: #e1251b;
+        }
+
+        .wtp .rfv {
+            width: 100%;
+            height: 260px;
+            margin-top: 31px;
+        }
+
+        .rfv .rfv2 {
+            width: 1190px;
+            height: 260px;
+            margin: 0px auto;
+        }
+
+        .rfv .rfv2 .jdms {
+            width: 190px;
+            height: 260px;
+            display: block;
+            background: url(img/4a15d8883775742e3efbb850ae14def7.png) no-repeat;
+            background-size: contain;
+            float: left;
+        }
+
+        .jdms div:nth-child(1) {
+            width: 100%;
+            text-align: center;
+            font-weight: 700;
+            color: #fff;
+            font-size: 30px;
+            padding-top: 31px;
+        }
+
+        .jdms div:nth-child(2) {
+            margin-top: 90px;
+            font-size: 14px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .jdms div:nth-child(2) strong {
+            font-size: 18px;
+        }
+
+        .rfv2 .jdmszj {
+            width: 800px;
+            height: 260px;
+            position: relative;
+            float: left;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        .jdmszj .jdms01 {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.15);
+            margin-top: -15px;
+            font-size: 15px;
+            z-index: 8;
+            border-radius: 15px;
+            left: -12px;
+        }
+
+        .jdms01 .iconfont {
+            position: absolute;
+            top: 8px;
+            left: 17px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .jdms02 .iconfont {
+            position: absolute;
+            top: 8px;
+            right: 17px;
+            font-size: 12px;
+            color: #fff;
+        }
+
+        .jdmszj .jdms02 {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.15);
+            margin-top: -15px;
+            font-size: 15px;
+            z-index: 8;
+            border-radius: 15px;
+            right: -12px;
+        }
+
+        .jdmszj .ja {
+            width: 200px;
+            display: block;
+            height: 260px;
+            float: left;
+        }
+
+        .jdmszj .ja:hover {
+            opacity: 0.8;
+        }
+
+        .ja .tq {
+            width: 160px;
+            height: 160px;
+            margin: 0px auto;
+            margin-top: 30px;
+        }
+
+        .tq p {
+            width: 160px;
+            height: 18px;
+            font-size: 12px;
+            color: #333;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-top: 7px;
+        }
+
+        .tq b {
+            width: 160px;
+            height: 24px;
+            line-height: 24px;
+            display: block;
+            color: #e1251b;
+            text-align: center;
+            margin-top: 7px;
+        }
+
+        .rfv2 .jdmsy {
+            width: 200px;
+            height: 260px;
+            display: block;
+            float: left;
+        }
+
+        .k99 {
+            height: 550px;
+            margin: 0px auto;
+            margin-top: 20px;
+            background: url(img/guang.png) no-repeat center;
+        }
+
+        .k99 .k98 {
+            width: 1190px;
+            height: 430px;
+            margin: 0px auto;
+            padding-top: 114px;
+        }
+
+        .k98 .k97 {
+            width: 190px;
+            height: 210px;
+            background: url(img/guangbg.jpg) no-repeat;
+            text-align: center;
+            float: left;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+
+        .k97 .k97a {
+            width: 190px;
+            height: 210px;
+            display: block;
+        }
+
+        .k97a img {
+            padding-top: 8px;
+        }
+
+        .k97a .k96 {
+            height: 32px;
+            background: url(img/guangbg2.png) no-repeat;
+            color: #fff;
+            font-size: 16px;
+            line-height: 32px;
+            margin-top: 10px;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        .k97a b {
+            font-size: 16px;
+            color: #dc4a31;
+        }
+
+        .k97a:hover {
+            opacity: 0.8;
+        }
+
+        .t99jz {
+            width: 1190px;
+            margin: 0px auto;
+            height: 90px;
+            position: relative;
+            background: url(img/t6.png) no-repeat;
+        }
+
+        .t99jz:hover {
+            background-image: url(img/t7.png);
+        }
+
+        .s99s {
+            width: 1190px;
+            height: 45px;
+            margin: 0px auto;
+            margin-top: 20px;
+        }
+
+        .gx {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            border-radius: 10px;
+            background-color: #3b3b3b;
+        }
+
+        .gx .iconfont {
+            position: absolute;
+            top: 3px;
+            right: 4px;
+            color: #fff;
+            font-size: 12px;
+        }
+
+        h1 {
+            width: 200px;
+            height: 40px;
+            margin: 0px auto;
+        }
+
+        h1 .s99sy {
+            width: 25px;
+            height: 25px;
+            display: block;
+            float: left;
+            margin-top: 10px;
+            background: url(img/sprite.png) no-repeat;
+        }
+
+        h1 .s99sy:nth-child(3) {
+            background: url(img/sprite.png) no-repeat -25px 0px;
+        }
+
+        h1 p {
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .wtp .h99 {
+            width: 1190px;
+            height: 560px;
+            margin: 0px auto;
+            margin-top: 10px;
+        }
+        .h99 .h992{
+            width: 290px;
+            height: 550px;
+            float: left;
+            margin-right: 7px;
+        }
+        .h99 .h992a{
+            width: 290px;
+            height: 370px;
+            display: block;
+            margin-bottom: 10px;
+            background:url(img/e713bf68f3224b5f.png) no-repeat;
+        }
+        .h992a:hover{
+            opacity: 0.8;
+        }
+        .h992 .h992x{
+            width: 290px;
+            height: 180px;
+            background-color: #fff;
+        }
+        .h992x a:nth-child(1){
+            width: 290px;
+            height: 50px;
+            display: block;
+            line-height: 70px;
+            font-size: 14px; 
+        }
+        .h992x a:nth-child(1) b{
+            color: #333;
+            margin-right: 5px;
+            font-size: 22px;
+            margin-left: 30px;
+        }
+        .h992x a:nth-child(2){
+            height: 100px;
+            display: block;
+            margin-top: 20px;
+        }
+        .h992x a:nth-child(2) img:nth-child(1){
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .h992x img:hover:nth-child(1){
+            opacity: 0.8;
+        }
+        .h992x img:hover:nth-child(2){
+            opacity: 0.8;
+        }
+        .h99 .h992a2{
+            width: 290px;
+            height: 370px;
+            display: block;
+            margin-bottom: 10px;
+            background:url(img/dfcdecbb6fe6779d.png) no-repeat;
+        }
+        .h992a2:hover{
+            opacity: 0.8;
+        }
+        .h992 .z{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .wtp .e99{
+            width: 1190px;
+            height: 60px;
+            margin: 0px auto;
+            background-color: #fff;
+            margin-top: 10px;
+        }
+        .wtp .e991{
+            width: 1080px;
+            height: 60px;
+            margin: 0px auto;
+        }
+        .e991 .e992{
+            width: 80px;
+            height: 52px;
+            padding-top: 8px;
+            float: left;
+        }
+        .e992 .e992a{
+            width: 80px;
+            height: 27px;
+            display: block;
+            text-align: center;
+            color: #3d3d3d;;
+            font-size: 16px;
+            line-height: 27px;
+        }
+        .e992a p{
+            font-size: 14px;
+        }
+        .e992 .kh{
+            background-color: #fff;
+            color: #3b3b3b;
+        }
+        .kh p{
+            color: #666;
+        }
+        
+        .e991 .e993{
+            width: 120px;
+            height: 60px;
+            float: left;
+        }
+        .e993 .sx{
+            height: 40px;
+            margin: 0px auto;
+            margin-top: 14px;
+            width: 1px;
+            background-color:rgba(103, 91, 91, 0.4);
+        }
+        .e992 .op{
+            background-color: #e1251b;
+            border-radius: 13px;
+            color: #fff;
+        }
+        .e992 .op p{
+            color: #666;
+        }
+        .e992a:hover{
+            color: #e1251b;
+        }
+        .wtp .w99{
+            width: 1190px;
+            height: 653px;
+            margin: 0px auto;
+            margin-top: 10px;
+        }
+        .w99 .w992{
+            width: 230px;
+            height: 322px;
+            float: left;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            background-color: #fff;
+        }
+        .w99 .w992:nth-child(5n){
+            margin: 0px;
+        }
+        .w992 .w992a{
+            width: 150px;
+            height: 150px;
+            display: block;
+            margin: 0px auto;
+            padding-top: 30px;
+            margin-bottom: 40px;
+        }
+        .w992 .w992a2{
+            width: 190px;
+            height: 40px;
+            overflow: hidden;
+            font-size: 16px;
+            margin: 0px auto;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            color: #3b3b3b;
+        }
+        .w992a2 p{
+            width: 34px;
+            height: 16px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 16px;
+            float: left;
+            margin-right: 6px;
+            color: #fff;
+            background-color: #e1251b;
+        }
+        .w992 b{
+            width: 190px;
+            display: block;
+            color: #e1251b;
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+        .w992:hover{
+            opacity: 0.8;
+        }
+        .w99 .w993{
+            width: 230px;
+            height: 322px;
+            float: left;
+            background:url(img/poiu.png) no-repeat -460px 0px;
+        }
+        .w993 .w993d{
+            width: 230px;
+            height: 263px;
+        }
+        .w993d h2{
+            width: 110px;
+            height: 34px;
+            line-height: 34px;
+            color: #fff;
+            background-color: #f2272b;
+            margin: 20px auto 37px;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 50px;
+        }
+        .w993 .gf{
+            width: 220px;
+            height: 192px;
+            margin-left: 10px;
+        }
+        .gf .gfa{
+            width: 88px;
+            height: 36px;
+            line-height: 36px;
+            font-size: 14px;
+            text-align: center;
+            float: left;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ffe0e8;
+            border-radius: 5px;
+            color: #c81623;
+        }
+        .gfa:hover{
+            background-color: #e1251b;
+            color: #fff;
+        }
+        .jw{
+            width: 1190px;
+            height: 40px;
+            margin: 0px auto;
+            padding: 30px 0px;
+            border-bottom: 1px solid #666;
+        }
+        .jw .je1{
+            float: left;
+            width: 297px;
+            height: 42px;
+        }
+        .je1 .je01{
+            margin: 0px auto;
+            width: 220px;
+            height: 42px;
+        }
+        .je01 i{
+            width: 36px;
+            height: 42px;
+            display: block;
+            float: left;
+            background:url(img/cc1d8d291ea917c0.png) no-repeat 0px -192px;
+        }
+        .je1:nth-child(2) i{
+            background:url(img/cc1d8d291ea917c0.png) no-repeat -41px -192px;
+        }
+        .je1:nth-child(3) i{
+            background:url(img/cc1d8d291ea917c0.png) no-repeat -82px -192px;
+        }
+        .je1:nth-child(4) i{
+            background:url(img/cc1d8d291ea917c0.png) no-repeat -123px -192px;
+        }
+        .je01 p{
+            float: left;
+            font-size: 18px;
+            color: #444;
+            padding-top: 8px;
+            margin-left: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tt">
+        <div class="tt2">
+            <!-- 第一个 -->
+            <ul class="nn01">
+                <li class="nn02">
+                    <a class="bj" href="#">
+                        <p class="wz">北京</p>
+                        <span class="iconfont icon-weizhi"></span>
+                    </a>
+                    <div class="pk01">
+                        <div class="uuu"></div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="ss01">
+                <li><a class="ss02" href="#">切换至企业版</a></li>
+            </ul>
+            <div class="jj"></div>
+            <!-- 第二个 -->
+            <div class="yy">
+                <ol class="yy2">
+                    <li class="yy01"><a class="yya" href="#">你好，请登录</a><a class="ya" href="#">免费注册</a></li>
+                    <li class="sg">|</li>
+                    <li class="yy02"><a class="yya" href="">我的订单</a></li>
+                    <li class="sg">|</li>
+                    <li class="yy03">
+                        <a class="yya" href="#">我的京东</a>
+                        <span class="iconfont icon-jiantouxia"></span>
+                        <div class="pk02">
+                            <div class="qqq"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy03">
+                        <a class="ya" href="">企业采购</a>
+                        <span class="iconfont icon-jiantouxia"></span>
+                        <div class="pk03">
+                            <div class="qqq"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy04">商家服务
+                        <span class="iconfont icon-jiantouxia"></span>
+                        <div class="pk04">
+                            <div class="qqq"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy04">网站导航
+                        <span class="iconfont icon-jiantouxia"></span>
+                        <div class="pk05">
+                            <div class="cfx"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy04 kk">手机京东
+                        <div class="pk06">
+                            <div class="xsj"></div>
+                        </div>
+                    </li>
+                    <li class="sg">|</li>
+                    <li class="yy05"><a href="#">网站无障碍</a></li>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="mm">
+        <div class="mm01">
+            <div class="vv01">
+                <a href="#"><img src="img/80afe4b365931a5d.jpg" alt="京东"></a>
+            </div>
+            <div class="vvvvv">
+                <ol class="vv02">
+                    <li class="hh">
+                        <input class="hh01" type="text" placeholder="我也不知道写什么">
+                        <a href="#" class="xj">
+                            <span class="iconfont icon-zhaoxiangji"></span>
+                        </a>
+                        <div class="ssk">
+                            <a href="#" class="ssk01">
+                                <span class="iconfont icon-ic_search24px"></span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="hh2">
+                        <span class="iconfont icon-gouwuche"></span>
+                        <a class="w" href="#"> 我的购物车</a>
+                        <P class="w2">0</P>
+                    </li>
+                </ol>
+                <ol class="vv03">
+                    <li class="z"><a class="za za2" href="#">易开得净水</a></li>
+                    <li class="z"><a class="za" href="#">拍拍二手</a></li>
+                    <li class="z"><a class="za" href="#">iPhone15</a></li>
+                    <li class="z"><a class="za" href="#">爆款手机</a></li>
+                    <li class="z"><a class="za" href="#">5折抢购</a></li>
+                    <li class="z"><a class="za" href="#">大牌奥莱</a></li>
+                    <li class="z"><a class="za" href="#">汽车凑单</a></li>
+                    <li class="z"><a class="za" href="#">企业团购</a></li>
+                    <li class="z"><a class="za" href="#">移动优选</a></li>
+                </ol>
+                <ol class="vv04">
+                    <li class="r"><a class="ra" href="#">京东超市</a></li>
+                    <li class="r"><a class="ra" href="#">秒杀</a></li>
+                    <li class="r"><a class="ra" href="#">京东生鲜</a></li>
+                    <li class="r"><a class="ra" href="#">京东家电</a></li>
+                    <li class="r"><a class="ra" href="#">电脑数码</a></li>
+                    <li class="r"><a class="ra" href="#">PLUS会员</a></li>
+                    <li class="r"><a class="ra" href="#">便宜包邮</a></li>
+                    <li class="r"><a class="ra" href="#">进口好物</a></li>
+                    <li class="r"><a class="ra" href="#">拍卖</a></li>
+                    <li class="r"><a class="ra" href="#">京东五金城</a></li>
+                </ol>
+            </div>
+            <a class="vv05" href="#"></a>
+        </div>
+    </div>
+    <div class="wtp">
+        <div class=ww>
+            <ul class="wx">
+                <li class="wx01">
+                    <a href="#">家用电器</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">手机</a>
+                    <span>/</span>
+                    <a href="#">运营商</a>
+                    <span>/</span>
+                    <a href="#">数码</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">电脑</a>
+                    <span>/</span>
+                    <a href="#">办公</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">家居</a>
+                    <span>/</span>
+                    <a href="#">家具</a>
+                    <span>/</span>
+                    <a href="#">家装</a>
+                    <span>/</span>
+                    <a href="#">厨具</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">男装</a>
+                    <span>/</span>
+                    <a href="#">女装</a>
+                    <span>/</span>
+                    <a href="#">童装</a>
+                    <span>/</span>
+                    <a href="#">内衣</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">美妆</a>
+                    <span>/</span>
+                    <a href="#">个护清洁</a>
+                    <span>/</span>
+                    <a href="#">宠物</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">女鞋</a>
+                    <span>/</span>
+                    <a href="#">箱包</a>
+                    <span>/</span>
+                    <a href="#">钟表</a>
+                    <span>/</span>
+                    <a href="#">珠宝</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">男鞋</a>
+                    <span>/</span>
+                    <a href="#">运动</a>
+                    <span>/</span>
+                    <a href="#">户外</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">房产</a>
+                    <span>/</span>
+                    <a href="#">汽车</a>
+                    <span>/</span>
+                    <a href="#">汽车用品</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">母婴</a>
+                    <span>/</span>
+                    <a href="#">玩具乐器</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">食品</a>
+                    <span>/</span>
+                    <a href="#">酒类</a>
+                    <span>/</span>
+                    <a href="#">生鲜</a>
+                    <span>/</span>
+                    <a href="#">特产</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">艺术</a>
+                    <span>/</span>
+                    <a href="#">礼品鲜花</a>
+                    <span>/</span>
+                    <a href="#">农牧园艺</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">医药保健</a>
+                    <span>/</span>
+                    <a href="#">计生情趣</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">图书</a>
+                    <span>/</span>
+                    <a href="#">文娱</a>
+                    <span>/</span>
+                    <a href="#">教育</a>
+                    <span>/</span>
+                    <a href="#">电子书</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">机票</a>
+                    <span>/</span>
+                    <a href="#">酒店</a>
+                    <span>/</span>
+                    <a href="#">旅游</a>
+                    <span>/</span>
+                    <a href="#">生活</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">支付</a>
+                    <span>/</span>
+                    <a href="#">白条</a>
+                    <span>/</span>
+                    <a href="#">保险</a>
+                    <span>/</span>
+                    <a href="#">企业金融</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">安装</a>
+                    <span>/</span>
+                    <a href="#">维修</a>
+                    <span>/</span>
+                    <a href="#">清洗</a>
+                    <span>/</span>
+                    <a href="#">二手</a>
+                    <div class="wxk"></div>
+                </li>
+                <li class="wx01">
+                    <a href="#">五金机电</a>
+                    <span>/</span>
+                    <a href="#">元器件</a>
+                    <div class="wxk"></div>
+                </li>
+            </ul>
+            <!-- 第一小块结尾 -->
+            <div class="ww2">
+                <a class="aa aa001" id="bda1" href="#"><img src="img/q.jpg" alt=""></a>
+                <a class="aa" id="bda2" href="#"><img src="img/q (1).jpg" alt=""></a>
+                <a class="aa" id="bda3" href="#"><img src="img/q (2).jpg" alt=""></a>
+                <a class="aa" id="bda4" href="#"><img src="img/q (3).jpg" alt=""></a>
+                <a class="aa" id="bda5" href="#"><img src="img/q (4).jpg" alt=""></a>
+                <a class="aa" id="bda6" href="#"><img src="img/q (5).jpg" alt=""></a>
+                <i class="ww2y">
+                    <span class="iconfont icon-zuo"></span>
+                </i>
+                <i class="wzz">
+                    <span class="iconfont icon-you"></span>
+                </i>
+                <p class="cc">
+                    <a class="bda" href="#bda1"></a>
+                    <a class="bda" href="#bda2"></a>
+                    <a class="bda" href="#bda3"></a>
+                    <a class="bda" href="#bda4"></a>
+                    <a class="bda" href="#bda5"></a>
+                    <a class="bda" href="#bda6"></a>
+                </p>
+            </div>
+            <!-- 第二小块结尾 -->
+            <div class="wy">
+                <a href="#" class="wy1"></a>
+                <a href="#" class="wy1">
+                    <div class="wyy">
+                        <span class="iconfont icon-zuo"></span>
+                    </div>
+                    <div class="wyz">
+                        <span class="iconfont icon-you"></span>
+                    </div>
+                </a>
+                <a href="#" class="wy1"></a>
+            </div>
+            <!-- 第三个小块结尾 -->
+            <div class="wzh">
+                <div class="wzh1">
+                    <a class="wzh1a" href="#"><img src="img/po.png" alt="京东"></a>
+                    <a class="wzhp" href="#">Hi~欢迎逛京东！</a>
+                    <a class="wzhm" href="#">
+                        <p class="z">Plus会员</p>
+                        <p class="zxc">立即开通<i></i></p>
+                        <p class="zx">最高3%返利</p>
+                    </a>
+                    <a class="wzh2m" href="#">
+                        <p class="z02">企业会员</p>
+                        <p class="zxc2">立即开通<i></i></p>
+                        <p class="zx2">新人采购立省1240元</p>
+                    </a>
+                </div>
+                <ul class="wzhu">
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp"></div>
+                            <span>企业购</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp2"></div>
+                            <span>礼品卡</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp3"></div>
+                            <span>话费</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp4"></div>
+                            <span>机票</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp5"></div>
+                            <span>游戏</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp6"></div>
+                            <span>白条</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp7"></div>
+                            <span>火车票</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp8"></div>
+                            <span>加油卡</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp9"></div>
+                            <span>五金城</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp10"></div>
+                            <span>电影票</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp11"></div>
+                            <span>酒店</span>
+                        </a>
+                    </li>
+                    <li class="wzhu2">
+                        <a class="wzhua" href="#">
+                            <div class="tp12"></div>
+                            <span>云建站</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="wzh3">
+                    <a href="#">
+                        <span>资讯</span>
+                        黄家强:我国工业蓝色发展取得七个方面的重大成就
+                    </a>
+                </div>
+            </div>
+            <!-- 第四个小块结尾 -->
+        </div>
+        <div class="rfv">
+            <div class="rfv2">
+                <a class="jdms" href="#">
+                    <div>京东秒杀</div>
+                    <div>
+                        <strong>18:00</strong>
+                        点场 距结束
+                    </div>
+                </a>
+                <div class="jdmszj">
+                    <i class="jdms01">
+                        <span class="iconfont icon-zuo"></span>
+                    </i>
+                    <i class="jdms02">
+                        <span class="iconfont icon-you"></span>
+                    </i>
+                    <a class="ja" href="#">
+                        <div class="tq">
+                            <img src="img/dc568a779947eccf.jpg" alt="">
+                            <p>SK-II神仙水230ml+清莹露160ml精华液爽肤水sk2护肤品套装化妆品skii</p>
+                            <b>¥2300</b>
+                        </div>
+                    </a>
+                    <a class="ja" href="#">
+                        <div class="tq">
+                            <img src="img/195318238fb463b8.jpg" alt="">
+                            <p>SK-II神仙水230ml+清莹露160ml精华液爽肤水sk2护肤品套装化妆品skii</p>
+                            <b>¥899</b>
+                        </div>
+                    </a>
+                    <a class="ja" href="#">
+                        <div class="tq">
+                            <img src="img/bf55aaaa4d82715e.jpg" alt="">
+                            <p>SK-II神仙水230ml+清莹露160ml精华液爽肤水sk2护肤品套装化妆品skii</p>
+                            <b>¥89</b>
+                        </div>
+                    </a>
+                    <a class="ja" href="#">
+                        <div class="tq">
+                            <img src="img/fc2f738d0da17ecc.jpg" alt="">
+                            <p>SK-II神仙水230ml+清莹露160ml精华液爽肤水sk2护肤品套装化妆品skii</p>
+                            <b>¥1710</b>
+                        </div>
+                    </a>
+                </div>
+                <a class="jdmsy" href="#">
+                    <img src="img/2624d454c52ad04b.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="k99">
+            <div class="k98">
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang1.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang2.jpg" alt="">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang3.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang4.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang5.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang6.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang7.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang8.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang9.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang10.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang11.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+                <div class="k97">
+                    <a class="k97a" href="#">
+                        <img src="img/guang12.jpg" alt="方便面">
+                        <div class="k96">9.9限时抢</div>
+                        <b>零食饮料</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="t99">
+            <div class="t99jz">
+                <div class="gx">
+                    <span class="iconfont icon-guanbi"></span>
+                </div>
+            </div>
+        </div>
+        <div class="s99s">
+            <h1>
+                <span class="s99sy"></span>
+                <p>频道广场</p>
+                <span class="s99sy"></span>
+            </h1>
+        </div>
+        <div class="h99">
+            <div class="h992">
+                <a class="h992a" href="#"></a>
+                <div class="h992x">
+                    <a href="#"><b>企业团购</b>一站式企业采购平台</a>
+                    <a href="#"><img src="img/7b8bf83669c558a5.jpg" alt=""><img src="img/ede2b8d826b7bab5.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="h992">
+                <a class="h992a2" href="#"></a>
+                <div class="h992x">
+                    <a href="#"><b>京东酒行</b>享全球美酒品美好生活</a>
+                    <a href="#"><img src="img/5ae92ffaN7dc7db42.jpg" alt=""><img src="img/6fb154a1efbd1779.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="h992">
+                <div class="h992x">
+                    <a href="#"><b>京东酒行</b>享全球美酒品美好生活</a>
+                    <a href="#"><img src="img/5ae92ffaN7dc7db42.jpg" alt=""><img src="img/6fb154a1efbd1779.jpg" alt=""></a>
+                </div>
+                <div class="h992x z">
+                    <a href="#"><b>京东酒行</b>享全球美酒品美好生活</a>
+                    <a href="#"><img src="img/5ae92ffaN7dc7db42.jpg" alt=""><img src="img/6fb154a1efbd1779.jpg" alt=""></a>
+                </div>
+                <div class="h992x">
+                    <a href="#"><b>京东酒行</b>享全球美酒品美好生活</a>
+                    <a href="#"><img src="img/5ae92ffaN7dc7db42.jpg" alt=""><img src="img/6fb154a1efbd1779.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="h992">
+                <div class="h992x">
+                    <a href="#"><b>京东酒行</b>享全球美酒品美好生活</a>
+                    <a href="#"><img src="img/5ae92ffaN7dc7db42.jpg" alt=""><img src="img/6fb154a1efbd1779.jpg" alt=""></a>
+                </div>
+                <div class="h992x z">
+                    <a href="#"><b>京东酒行</b>享全球美酒品美好生活</a>
+                    <a href="#"><img src="img/5ae92ffaN7dc7db42.jpg" alt=""><img src="img/6fb154a1efbd1779.jpg" alt=""></a>
+                </div>
+                <div class="h992x">
+                    <a href="#"><b>京东酒行</b>享全球美酒品美好生活</a>
+                    <a href="#"><img src="img/5ae92ffaN7dc7db42.jpg" alt=""><img src="img/6fb154a1efbd1779.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="s99s">
+            <h1>
+                <span class="s99sy"></span>
+                <p>为你推荐</p>
+                <span class="s99sy"></span>
+            </h1>
+        </div>
+        <div class="e99">
+            <ul class="e991">
+                <li class="e992">
+                    <a class="e992a op" href="">
+                        <b>精选</b>
+                        <p>猜你喜欢</p>
+                    </a>
+                </li>
+                <li class="e993"><div class="sx"></div></li>
+                <li class="e992">
+                    <a class="e992a" href="">
+                        <b>智能先锋</b>
+                        <p>大电器城</p>
+                    </a>
+                </li>
+                <li class="e993"><div class="sx"></div></li>
+                <li class="e992">
+                    <a class="e992a" href="">
+                        <b>精选</b>
+                        <p>猜你喜欢</p>
+                    </a>
+                </li>
+                <li class="e993"><div class="sx"></div></li>
+                <li class="e992">
+                    <a class="e992a" href="">
+                        <b>精选</b>
+                        <p>猜你喜欢</p>
+                    </a>
+                </li>
+                <li class="e993"><div class="sx"></div></li>
+                <li class="e992">
+                    <a class="e992a" href="">
+                        <b>精选</b>
+                        <p>猜你喜欢</p>
+                    </a>
+                </li>
+                <li class="e993"><div class="sx"></div></li>
+                <li class="e992">
+                    <a class="e992a" href="">
+                        <b>精选</b>
+                        <p>猜你喜欢</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <ul class="w99">
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w993">
+                <a class="w993d" href="#" >
+                    <h2>精选热点</h2>
+                </a>
+                <div class="gf">
+                    <a class="gfa" href="#">遛狗绳</a>
+                    <a class="gfa" href="#">遛狗绳</a>
+                    <a class="gfa" href="#">遛狗绳</a>
+                    <a class="gfa" href="#">遛狗绳</a>
+                    <a class="gfa" href="#">遛狗绳</a>
+                    <a class="gfa" href="#">遛狗绳</a>
+                    <a class="gfa" href="#">遛狗绳</a>
+                    <a class="gfa" href="#">遛狗绳</a>
+                </div>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+            <li class="w992">
+                <a class="w992a" href="#">
+                    <img src="img/b7205de4a57f66a1.jpg" alt="">
+                </a>
+                <a class="w992a2" href="#">
+                    <p>自营</p>联想(Lenovo)平板电脑启天E10C 10.1英寸全高清影音娱乐商用办公学习平板电脑 莱茵认证 3G+32G WiFi版
+                </a>
+                <b>¥5800</b>
+            </li>
+        </ul>
+        <div class="jw">
+            <div class="je1">
+                <div class="je01">
+                    <i></i>
+                    <p>品类齐全，轻松购物</p>
+                </div>
+            </div>
+            <div class="je1">
+                <div class="je01">
+                    <i></i>
+                    <p>多仓直发，极速配送</p>
+                </div>
+            </div>
+            <div class="je1">
+                <div class="je01">
+                    <i></i>
+                    <p>正品行货，精致服务</p>
+                </div>
+            </div>
+            <div class="je1">
+                <div class="je01">
+                    <i></i>
+                    <p>天天低价，畅选无忧</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
